@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "betterdamagetick",
+  "version": "${version}",
+  "name": "BetterDamageTick",
+  "description": "makes the red flashing on damage better",
+  "authors": [
+    "uku"
+  ],
+  "contact": {
+    "repo": "https://github.com/uku3lig/betterdamagetick"
+  },
+  "license": "MIT",
+  "icon": "assets/betterdamagetick/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "betterdamagetick.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2"
+  }
+}
